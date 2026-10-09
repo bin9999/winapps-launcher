@@ -43,8 +43,11 @@ sudo zypper install yad
     # FOR LOCAL INSTALL:
     WINAPPS_SRC_DIR="$HOME/.local/bin/winapps-src"
 
-    # --- OR ---
+    ```
 
+    **Alternatively, for a system-wide installation only:**
+
+    ```bash
     # FOR SYSTEM-WIDE INSTALL:
     WINAPPS_SRC_DIR="/usr/local/bin/winapps-src"
     ```
