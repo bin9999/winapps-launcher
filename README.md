@@ -128,3 +128,8 @@ EOF
 > systemctl --user disable winapps-launcher # Disable Service
 > rm ~/.config/systemd/user/winapps-launcher.service # Delete Service
 > ```
+
+<!-- central-systemd-reference -->
+## Systemd and desktop automation
+
+See [Zorin Systemd Automation & Services Control Center](https://github.com/bin9999/zorin-systemd-automation) for the central system/user unit inventory, VM graceful-shutdown hooks, audio and Splunk services, startup panel and unit-file inspection/editing. If this project adds or changes a Linux service, timer, path unit or startup/shutdown hook, record its scope, source and setup/safety/rollback instructions there. This reference does not imply that this project installs a systemd unit.
